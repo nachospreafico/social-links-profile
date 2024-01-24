@@ -10,18 +10,15 @@ body {
 }
 
 main {
-  min-height: 660px;
-  width: 100vw;
   background-color: #141414;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  min-height: 660px;
 }
 
 .card-container {
   width: 279px;
   height: auto;
-  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,6 +26,10 @@ main {
   gap: 24px;
   background-color: #1f1f1f;
   border-radius: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .card-img {
@@ -99,6 +100,7 @@ main {
 
   .card-container {
     padding: 40px;
+    width: 304px;
   }
 
   .card-img {
